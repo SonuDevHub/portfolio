@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import memojiImage from '@/assets/images/memoji-computer.png'
 import Image from 'next/image'
@@ -6,7 +7,6 @@ import grainImage from '@/assets/images/grain.jpg'
 import StarIcon from '@/assets/icons/star.svg'
 import SparkleIcon from '@/assets/icons/sparkle.svg'
 import HeroOrbit from '@/components/HeroOrbit'
-//  eslint-disable react/no-unescaped-entities 
 
 const HeroSection = () => {
   return (
