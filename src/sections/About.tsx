@@ -106,7 +106,7 @@ export const AboutSection = () => {
                 <Image src={BookImage} alt='book cover' />
               </div>
             </Card>
-            <Card className="h-[300px] md:col-span-3 lg:col-span-2">
+            <Card className="h-[3000px] md:col-span-3 lg:col-span-2">
               <CardHeader title='My Toolbox' description="Exlore the technologies and tools I use to craft exceptional digital experiences." className="" />
               <ToolboxItems items={toolboxItems} className="animate-move-left [animation-duration:30s]" />
               <ToolboxItems items={toolboxItems} className="mt-6" itemsWrapperClassName="animate-move-right [animation-duration:20s]" />
